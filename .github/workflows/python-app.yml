@@ -38,6 +38,6 @@ jobs:
         else
           echo "No test files found. Skipping pytest."
         fi
-    - name: linear regression.py
+    - name: Run linear regression.py
       run: |
         python linear regression.py
